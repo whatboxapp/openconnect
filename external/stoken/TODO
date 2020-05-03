@@ -1,0 +1,13 @@
+TODO list:
+
+Library functions probably need man pages.
+
+Consider sanitizing memory, and figure out how to avoid leaking key material.
+
+Fix alpha channel on the icon.
+
+Make better use of the public library functions from cli/gui.
+
+vpnc integration.
+
+Add hotkeys, import/about dialogs, other features to the GUI.

@@ -1,0 +1,67 @@
+STOKEN_1.0 {
+global:
+	stoken_new;
+	stoken_destroy;
+	stoken_import_rcfile;
+	stoken_import_string;
+	stoken_pin_range;
+	stoken_pin_required;
+	stoken_pass_required;
+	stoken_devid_required;
+	stoken_check_pin;
+	stoken_decrypt_seed;
+	stoken_compute_tokencode;
+};
+
+STOKEN_1.1 {
+global:
+	stoken_check_devid;
+	stoken_encrypt_seed;
+} STOKEN_1.0;
+
+STOKEN_1.2 {
+global:
+	stoken_get_info;
+} STOKEN_1.1;
+
+STOKEN_1.3 {
+global:
+	stoken_format_tokencode;
+	stoken_get_guid_list;
+} STOKEN_1.2;
+
+STOKEN_PRIVATE {
+global:
+	securid_check_devid;
+	securid_check_exp;
+	securid_compute_tokencode;
+	securid_decode_token;
+	securid_decrypt_pin;
+	securid_decrypt_seed;
+	securid_devid_required;
+	securid_encode_token;
+	securid_encrypt_pin;
+	securid_pass_required;
+	securid_pin_format_ok;
+	securid_pin_required;
+	securid_random_token;
+	securid_token_info;
+	securid_token_interval;
+	securid_unix_exp_date;
+	sdtid_decode;
+	sdtid_decrypt;
+	sdtid_issue;
+	sdtid_export;
+	sdtid_free;
+	stc_standalone_init;
+	__stoken_parse_and_decode_token;
+	__stoken_read_rcfile;
+	__stoken_write_rcfile;
+	__stoken_zap_rcfile_data;
+	stoken__strcasestr;
+	stoken__mkstemps;
+	/* NOTE: this can break non-GNU toolchains */
+	Java_*;
+local:
+	*;
+};

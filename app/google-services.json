@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "397565816176",
+    "firebase_url": "https://ics-openconnect.firebaseio.com",
+    "project_id": "ics-openconnect",
+    "storage_bucket": "ics-openconnect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397565816176:android:390f82d81adb987a0c73b5",
+        "android_client_info": {
+          "package_name": "com.github.digitalsoftwaresolutions.openconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397565816176-ulin550173u0g34k6bradjpeab65psnu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.digitalsoftwaresolutions.openconnect",
+            "certificate_hash": "b33d17a6be3bae18e19516e35d733cc28ec7fdc4"
+          }
+        },
+        {
+          "client_id": "397565816176-6usqs6ddrblmh0pcftbo63a4v0g4m6ii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyLY-lP3mpU-L9eKr-ic8AYFhV2Emqgcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397565816176-6usqs6ddrblmh0pcftbo63a4v0g4m6ii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

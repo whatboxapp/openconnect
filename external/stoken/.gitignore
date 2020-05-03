@@ -1,0 +1,41 @@
+# autotools stuff
+Makefile
+Makefile.in
+aclocal.m4
+config.h
+config.h.in
+config.log
+config.status
+configure
+install-sh
+src/.deps/
+src/.dirstamp
+src/*.lo
+src/.libs/
+stamp-h1
+autom4te.cache/
+.libs/
+*.la
+build-aux/
+libtool
+test-suite.log
+
+# objects
+/src/*.o
+/stoken
+/stoken-gui
+/stoken-*.tar.gz
+/stoken.pc
+
+# scratch files
+.*.sw*
+*~
+
+# Debian
+ppa/changelog
+tmp.debian
+
+# Windows
+winpkg/
+winpkg.zip
+*.exe
